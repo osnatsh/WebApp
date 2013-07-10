@@ -1,0 +1,10 @@
+C:\Users\nir\Desktop\WebMobile\Forms\bin\Forms.dll
+C:\Users\nir\Desktop\WebMobile\Forms\bin\Forms.pdb
+C:\Users\nir\Desktop\WebMobile\Forms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\WebMobile\Forms\obj\Debug\Forms.dll
+C:\Users\nir\Desktop\WebMobile\Forms\obj\Debug\Forms.pdb
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Forms\bin\Forms.dll
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Forms\bin\Forms.pdb
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Forms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Forms\obj\Debug\Forms.dll
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Forms\obj\Debug\Forms.pdb

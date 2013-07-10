@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+
+    <script type="text/javascript">
+        $("#page1").live("pagecreate", function () {
+            alert("Page created!");
+        });
+
+        $("#page1").live("pageshow", function () {
+            alert("Page showed!");
+        });
+
+        $("#page1").live("pagehide", function () {
+            alert("Page hidden!");
+        });
+
+    </script>
+
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>More Events</h1>
+        </div>
+
+        <div data-role="content">
+            <a href="#p2" data-role="button">Page 2</a>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+    <div data-role="page" id="p2">
+        <div data-role="header">
+            <h1>Page 2</h1>
+        </div>
+
+        <div data-role="content">
+            Page 2!
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+</body>
+</html>

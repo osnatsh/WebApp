@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Touch Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    
+    <script type="text/javascript">
+        $("#page1").live("pageinit", function () {
+            $('#blue').bind('swipeleft', function () {
+                $('#showEvent').html('Event Triggered: Slide Left');
+            });
+            $('#blue').bind('swiperight', function () {
+                $('#showEvent').html('Event Triggered: Slide Right');
+            });
+//            $('#blue').bind('tap', function (evt) {
+//                $('#showEvent').html('Event Triggered: Tap, (' + evt.pageX + ", " + evt.pageY + ")");
+//            });
+
+//            $('#blue').bind('taphold', function (evt) {
+//                $('#showEvent').html('Event Triggered: Tap Hold');
+//            });
+        });
+    </script>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>Events</h1>
+        </div>
+
+        <div data-role="content">
+           <div id="blue" style="background-color:blue"><br /><br /></div>
+            <p id="showEvent"></p>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+</body>
+</html>
+<img src="file:///C:\Users\nir\AppData\Local\Temp\ojj9fzou.bmp" />

@@ -1,0 +1,10 @@
+C:\Users\nir\Desktop\WebMobile\BasicPage\bin\BasicPage.dll
+C:\Users\nir\Desktop\WebMobile\BasicPage\bin\BasicPage.pdb
+C:\Users\nir\Desktop\WebMobile\BasicPage\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\WebMobile\BasicPage\obj\Debug\BasicPage.dll
+C:\Users\nir\Desktop\WebMobile\BasicPage\obj\Debug\BasicPage.pdb
+C:\Users\nir\Desktop\Oracle Week\WebMobile\BasicPage\bin\BasicPage.dll
+C:\Users\nir\Desktop\Oracle Week\WebMobile\BasicPage\bin\BasicPage.pdb
+C:\Users\nir\Desktop\Oracle Week\WebMobile\BasicPage\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\Oracle Week\WebMobile\BasicPage\obj\Debug\BasicPage.dll
+C:\Users\nir\Desktop\Oracle Week\WebMobile\BasicPage\obj\Debug\BasicPage.pdb

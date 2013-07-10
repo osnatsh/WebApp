@@ -1,0 +1,10 @@
+C:\Users\nir\Desktop\WebMobile\Listviews\bin\Listviews.dll
+C:\Users\nir\Desktop\WebMobile\Listviews\bin\Listviews.pdb
+C:\Users\nir\Desktop\WebMobile\Listviews\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\WebMobile\Listviews\obj\Debug\Listviews.dll
+C:\Users\nir\Desktop\WebMobile\Listviews\obj\Debug\Listviews.pdb
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Listviews\bin\Listviews.dll
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Listviews\bin\Listviews.pdb
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Listviews\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Listviews\obj\Debug\Listviews.dll
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Listviews\obj\Debug\Listviews.pdb

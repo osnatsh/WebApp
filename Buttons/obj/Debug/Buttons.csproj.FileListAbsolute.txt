@@ -1,0 +1,10 @@
+C:\Users\nir\Desktop\WebMobile\Buttons\bin\Buttons.dll
+C:\Users\nir\Desktop\WebMobile\Buttons\bin\Buttons.pdb
+C:\Users\nir\Desktop\WebMobile\Buttons\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\WebMobile\Buttons\obj\Debug\Buttons.dll
+C:\Users\nir\Desktop\WebMobile\Buttons\obj\Debug\Buttons.pdb
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Buttons\bin\Buttons.dll
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Buttons\bin\Buttons.pdb
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Buttons\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Buttons\obj\Debug\Buttons.dll
+C:\Users\nir\Desktop\Oracle Week\WebMobile\Buttons\obj\Debug\Buttons.pdb

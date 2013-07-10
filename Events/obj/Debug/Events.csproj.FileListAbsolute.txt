@@ -1,0 +1,5 @@
+C:\Users\nir\Desktop\WebMobile\Events\bin\Events.dll
+C:\Users\nir\Desktop\WebMobile\Events\bin\Events.pdb
+C:\Users\nir\Desktop\WebMobile\Events\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nir\Desktop\WebMobile\Events\obj\Debug\Events.dll
+C:\Users\nir\Desktop\WebMobile\Events\obj\Debug\Events.pdb

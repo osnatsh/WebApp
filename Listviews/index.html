@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ListViews</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Listviews</h1>
+        </div>
+
+        <div data-role="content">
+            <ul id="list" data-role="listview" data-inset="true">       
+                <li><a href="#nest">Nested Lists</a></li>       
+                <li><a href="#thumb">Thumbnail List</a></li>        
+                <li><a href="#count">Count Bubbles</a></li>
+                <li><a href="#dividers">Dividers</a></li>
+                <li><a href="#icons">Icons</a></li>
+                <li><a href="#collapse">Collapsible</a></li>
+            </ul>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+    <!-- Nested List -->
+    <div data-role="page" id="nest">
+        <div data-role="header">
+            <h1>Nested Listviews</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">       
+                <li>
+				<h3>Animals</h3>
+				<p>All your favorites from aarkvarks to zebras.</p>
+			
+				<ul data-inset="true">
+					<li><div>Pets</div>
+						<span class="ui-li-count">6</span>
+						<ul data-inset="true">
+							<li><a href="index.html">Canary</a></li>
+							<li><a href="index.html">Cat</a></li>
+							<li><a href="index.html">Dog</a></li>
+							<li><a href="index.html">Gerbil</a></li>
+							<li><a href="index.html">Iguana</a></li>
+							<li><a href="index.html">Mouse</a></li>
+						</ul>
+					</li>
+					<li><div>Farm animals</div>
+						<p class="ui-li-count">6</p>
+						<ul data-inset="true">
+							<li><a href="index.html">Chicken</a></li>
+							<li><a href="index.html">Cow</a></li>
+							<li><a href="index.html">Duck</a></li>
+							<li><a href="index.html">Horse</a></li>
+							<li><a href="index.html">Pig</a></li>
+							<li><a href="index.html">Sheep</a></li>
+						</ul>
+					</li>
+					<li><div>Wild animals</div>
+						<p class="ui-li-count">18</p>
+						<ul data-inset="true">
+							<li><a href="index.html">Aardvark</a></li>
+							<li><a href="index.html">Alligator</a></li>
+							<li><a href="index.html">Ant</a></li>
+							<li><a href="index.html">Bear</a></li>
+							<li><a href="index.html">Beaver</a></li>
+							<li><a href="index.html">Cougar</a></li>
+							<li><a href="index.html">Dingo</a></li>
+							<li><a href="index.html">Eagle</a></li>
+							<li><a href="index.html">Elephant</a></li>
+							<li><a href="index.html">Ferret</a></li>
+							<li><a href="index.html">Frog</a></li>
+							<li><a href="index.html">Giraffe</a></li>
+							<li><a href="index.html">Lion</a></li>
+							<li><a href="index.html">Monkey</a></li>
+							<li><a href="index.html">Panda bear</a></li>
+							<li><a href="index.html">Polar bear</a></li>
+							<li><a href="index.html">Tiger</a></li>
+							<li><a href="index.html">Zebra</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+
+				<h3>Colors</h3>
+				<p>Fresh colors from the magic rainbow.</p>
+	
+				<ul data-inset="true">
+					<li><a href="index.html">Blue</a></li>
+					<li><a href="index.html">Green</a></li>
+					<li><a href="index.html">Orange</a></li>
+					<li><a href="index.html">Purple</a></li>
+					<li><a href="index.html">Red</a></li>
+					<li><a href="index.html">Yellow</a></li>
+					<li><a href="index.html">Violet</a></li>
+				</ul>
+			</li>
+            </ul>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+
+    <!-- Thumbnails -->
+    <div data-role="page" id="thumb">
+        <div data-role="header">
+            <h1>Thumbnail Listviews</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+			    <li><a href="index.html">
+				    <img src="images/album-rh.jpg" />
+				    <h3>Kid A</h3>
+				    <p>Radiohead</p>
+			    </a></li>
+			    <li><a href="index.html">
+				    <img src="images/album-xx.jpg" />
+				    <h3>XX</h3>
+				    <p>XX</p>
+			    </a></li>
+			    <li><a href="index.html">
+				    <img src="images/album-mg.jpg" />
+				    <h3>Congratulations</h3>
+				    <p>MGMT</p>
+			    </a></li>
+			
+			    <li><a href="index.html">
+				    <img src="images/album-ag.jpg" />
+				    <h3>Ashes Grammar</h3>
+				    <p>A Sunny Day in Glasgow</p>
+			    </a></li>
+			
+			    <li><a href="index.html">
+				    <img src="images/album-k.jpg" />
+				    <h3>Hot Fuss</h3>
+				    <p>Killers</p>
+			    </a></li>
+			    <li><a href="index.html">	
+				    <img src="images/album-af.jpg" />
+				    <h3>The Suburbs</h3>
+				    <p>Arcade Fire</p>
+			    </a></li>
+		    </ul>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+
+    <!-- Count bubbles -->
+    <div data-role="page" id="count">
+        <div data-role="header">
+            <h1>Listviews</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">       
+				<li><div>Cars</div>
+					<span class="ui-li-count">22</span>
+					<ul data-inset="true">
+						<li><a href="index.html">Acura</a></li>
+						<li><a href="index.html">Audi</a></li>
+						<li><a href="index.html">BMW</a></li>
+						<li><a href="index.html">Cadillac</a></li>
+						<li><a href="index.html">Chrysler</a></li>
+						<li><a href="index.html">Dodge</a></li>
+						<li><a href="index.html">Ferrari</a></li>
+						<li><a href="index.html">Ford</a></li>
+						<li><a href="index.html">GMC</a></li>
+						<li><a href="index.html">Honda</a></li>
+						<li><a href="index.html">Hyundai</a></li>
+						<li><a href="index.html">Infiniti</a></li>
+						<li><a href="index.html">Jeep</a></li>
+						<li><a href="index.html">Kia</a></li>
+						<li><a href="index.html">Lexus</a></li>
+						<li><a href="index.html">Mini</a></li>
+						<li><a href="index.html">Nissan</a></li>
+						<li><a href="index.html">Porsche</a></li>
+						<li><a href="index.html">Subaru</a></li>
+						<li><a href="index.html">Toyota</a></li>
+						<li><a href="index.html">Volkswagon</a></li>
+						<li><a href="index.html">Volvo</a></li>
+					</ul>
+				</li>
+				<li><div>Planes</div>
+					<span class="ui-li-count">7</span>
+					<ul data-inset="true">
+						<li><a href="index.html">Boeing</a></li>
+						<li><a href="index.html">Cessna</a></li>
+						<li><a href="index.html">Derringer</a></li>
+						<li><a href="index.html">Embraer</a></li>
+						<li><a href="index.html">Gulfstream</a></li>
+						<li><a href="index.html">Piper Aircraft</a></li>
+						<li><a href="index.html">Raytheon</a></li>
+					</ul>
+				</li>
+				<li><div>Construction</div>
+					<span class="ui-li-count">3</span>
+					<ul data-inset="true">
+						<li><a href="index.html">Caterpillar</a></li>
+						<li><a href="index.html">Ford</a></li>
+						<li><a href="index.html">John Deere</a></li>
+
+					</ul>
+				</li>				
+			</ul>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+    
+
+    <!-- Dividers -->
+    <div data-role="page" id="dividers">
+        <div data-role="header">
+            <h1>Dividers Listviews</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" auto-deviders="true">  
+                <li data-role="list-divider">A</li>
+                <li><a href="index.html">Acura</a></li>
+				<li><a href="index.html">Audi</a></li>
+                <li data-role="list-divider">B</li>				
+                <li><a href="index.html">BMW</a></li>
+				<li><a href="index.html">Cadillac</a></li>
+				<li><a href="index.html">Chrysler</a></li>
+				<li><a href="index.html">Dodge</a></li>
+				<li><a href="index.html">Ferrari</a></li>
+				<li><a href="index.html">Ford</a></li>
+				<li><a href="index.html">GMC</a></li>
+				<li><a href="index.html">Honda</a></li>
+				<li><a href="index.html">Hyundai</a></li>
+				<li><a href="index.html">Infiniti</a></li>
+				<li><a href="index.html">Jeep</a></li>
+				<li><a href="index.html">Kia</a></li>
+				<li><a href="index.html">Lexus</a></li>
+				<li><a href="index.html">Mini</a></li>
+				<li><a href="index.html">Nissan</a></li>
+				<li><a href="index.html">Porsche</a></li>
+				<li><a href="index.html">Subaru</a></li>
+				<li><a href="index.html">Toyota</a></li>
+				<li><a href="index.html">Volkswagon</a></li>
+				<li><a href="index.html">Volvo</a></li>
+            </ul>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+    <!-- Icons -->
+    <div data-role="page" id="icons">
+        <div data-role="header">
+            <h1>Icons</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+			    <li><a href="index.html"><img src="images/gf.png" alt="France" class="ui-li-icon">France</a></li>
+			    <li><a href="index.html"><img src="images/de.png" alt="Germany" class="ui-li-icon">Germany</a></li>
+			    <li><a href="index.html"><img src="images/gb.png" alt="Great Britain" class="ui-li-icon">Great Britain</a></li>
+			    <li><a href="index.html"><img src="images/fi.png" alt="Finland" class="ui-li-icon">Finland</a></li>
+			    <li><a href="index.html"><img src="images/sj.png" alt="Norway" class="ui-li-icon">Norway</a></li>
+			    <li><a href="index.html"><img src="images/us.png" alt="United States" class="ui-li-icon">United States</a></li>
+		    </ul>
+        </div>
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+    <!-- Collapsible -->
+    <div data-role="page" id="collapse">
+        <div data-role="header">
+            <h1>Collapsible</h1>
+        </div>
+
+        <div data-role="content">
+            <div data-role="collapsible" data-theme="b" data-content-theme="c">
+				<h2>Choose a car model...</h2>
+				<ul data-role="listview">
+					<li><a href="index.html">Acura</a></li>
+					<li><a href="index.html">Audi</a></li>
+					<li><a href="index.html">BMW</a></li>
+					<li><a href="index.html">Cadillac</a></li>
+					<li><a href="index.html">Chrysler</a></li>
+					<li><a href="index.html">Dodge</a></li>
+					<li><a href="index.html">Ferrari</a></li>
+                </ul>
+            </div>
+            <div data-role="collapsible">
+					<h2>Filtered list</h2>
+					<ul data-role="listview" data-filter="true" data-theme="a" data-filter-theme="a">
+						<li><a href="index.html">Adam Kinkaid</a></li>
+						<li><a href="index.html">Alex Wickerham</a></li>
+						<li><a href="index.html">Avery Johnson</a></li>
+						<li><a href="index.html">Bob Cabot</a></li>
+						<li><a href="index.html">Caleb Booth</a></li>
+					</ul>
+				</div>
+        </div>
+
+        <div data-role="footer">
+            <h3>Liron Shtraichman (tm)</h3>
+        </div>
+    </div>
+</body>
+</html>

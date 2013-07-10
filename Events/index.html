@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.defaultDialogTransition = "flip";
+            $.mobile.defaultPageTransition = "slideup";
+            $.mobile.pageLoadErrorMessage = "Page not found...";
+            $.mobile.pageLoadErrorMessageTheme = "a";
+            $.mobile.page.prototype.options.addBackBtn = true;
+        });
+    </script>
+
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>Events</h1>
+        </div>
+
+        <div data-role="content">
+            <a href="#dialog" data-role="button" data-rel="dialog">Open dialog</a>
+            <a href="#page2" data-role="button">Open page2</a>
+            <a href="oops.html" data-role="button">Open non-existing page</a>
+            <a href="events2.html" data-role="button">Open more events</a>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="dialog">
+        <div data-role="header">
+            <h1>Dialog box</h1>
+        </div>
+
+        <div data-role="content">
+            Dialog!
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+    <div data-role="page" id="page2">
+        <div data-role="header">
+            <h1>Page 2</h1>
+        </div>
+
+        <div data-role="content">
+            Page 2
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+</body>
+</html>

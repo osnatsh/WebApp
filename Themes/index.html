@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Themes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>Themes</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" data-theme="b">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact" data-transition="flip">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+    <!-- /page -->
+
+    <div data-role="page" id="services">
+        <div data-role="header">
+            <h1>Services</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">Service 1</a></li>
+                <li><a href="#">Service 2</a></li>
+                <li><a href="#">Service 3</a></li>
+            </ul>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+    <div data-role="page" id="about" data-add-back-btn="true">
+        <div data-role="header">
+            <h1>About Us</h1>
+        </div>
+
+        <div data-role="content">
+            <p>This is the about us page...</p>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+
+    <div data-role="page" id="contact" data-add-back-btn="true">
+        <div data-role="header">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div data-role="content">
+            <p>This is the contact us page...</p>
+        </div>
+
+        <div data-role="footer">
+            <h3>Nir Gal (tm)</h3>
+        </div>
+    </div>
+</body>
+</html>
